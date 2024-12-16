@@ -1,0 +1,466 @@
+/* -- section top start -- */
+.home-top-margin {
+    margin-bottom: 32px;
+}
+
+.home-btn {
+    margin-bottom: 50px;
+}
+
+/* -- section top end -- */
+
+
+/* -- section trusted partner start -- */
+.journey-img {
+    margin-top: 20px;
+}
+
+.about-btn {
+    margin: 30px 0 100px 0;
+}
+
+.home-review {
+    border-top: 1px solid #BEBAB1;
+}
+
+.review {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 76px;
+    margin-top: 25px;
+    color: var(--black);
+}
+
+.review-subpara {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--gray);
+}
+
+
+/* -- section trusted partner start -- */
+
+/* section approach start  */
+
+.approach {
+    grid-area: 1/7/2/12;
+
+}
+
+.approach-content-wrapper {
+    padding: 40px;
+    border-bottom: 1px solid #BEBAB1;
+    position: relative;
+}
+
+.about-card-heading {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 18px;
+    color: var(--black);
+}
+
+.about-card-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--gray);
+}
+
+.approach-content-wrapper::before {
+    content: '';
+    background-image: url(../images/approach-icon.svg);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    left: 0px;
+    position: absolute;
+}
+
+/* section approach end  */
+
+.home-blog-section {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* -- section unmatched commitment start -- */
+
+
+
+.commitment-img {
+    width: 50%;
+}
+
+.commitment-img img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.commitment-content {
+    width: 50%;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.commitment-logo {
+    margin-bottom: 30px;
+    margin-right: auto;
+    display: block;
+    width: auto !important;
+}
+
+.commitment-hover-logo {
+    display: none !important;
+    width: auto !important;
+    margin-bottom: 30px;
+    margin-right: auto;
+}
+
+.commitment-heading {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 13px;
+    color: var(--black);
+}
+
+.commitment-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+    color: var(--gray);
+}
+
+.commitment-content-wrapper {
+    max-height: 300px;
+    border: 1px solid #5f5d5d42;
+    border-radius: 15px;
+}
+
+.commitment-content-wrapper:hover .commitment-content {
+    background-color: var(--black);
+    transition: 0.3s ease-in-out;
+}
+
+.commitment-content-wrapper:hover .commitment-hover-logo {
+    display: block !important;
+    transition: 0.3s ease-in-out;
+}
+
+.commitment-content-wrapper:hover .commitment-logo {
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+
+.commitment-content-wrapper:hover .commitment-heading {
+    color: var(--white);
+    transition: 0.3s ease-in-out;
+}
+
+.commitment-content-wrapper:hover .commitment-para {
+    color: var(--white);
+    transition: 0.3s ease-in-out;
+}
+
+/* -- section unmatched commitment end -- */
+
+
+
+
+/* --- section patient review start  --- */
+
+
+.patient-review {
+    background-color: var(--black);
+}
+
+.patient-heading {
+    color: var(--white);
+}
+
+.patient-text {
+    color: var(--gray);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 90px;
+    margin-top: 57px;
+}
+
+.sm-patient-btns {
+    position: relative;
+}
+
+.patient-review-img {
+    grid-area: 1/10/2/13;
+}
+
+.name-location {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+.border-between {
+    border-right: 1px solid #414141;
+    padding-right: 10px;
+}
+
+.patient-border-bottom {
+    border-bottom: 1px solid #414141;
+    width: 600px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.patient-border-position {
+    position: relative;
+}
+
+.upper-btn-wrapper {
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.arrow-btns {
+    padding: 17px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    margin-right: 15px;
+}
+
+.arrow-white {
+    display: block;
+}
+
+.arrow-black {
+    display: none;
+}
+
+.arrow-btns:hover {
+    background-color: var(--green);
+    border-color: var(--green);
+
+}
+
+.arrow-btns:hover .arrow-white {
+    display: none;
+}
+
+.arrow-btns:hover .arrow-black {
+    display: block;
+}
+
+/* --- section patient review end  --- */
+
+.secure-appointment {
+    background-color: var(--green);
+    padding: 70px 0;
+}
+
+
+.btn-green-to-black {
+    background-color: var(--green);
+    color: var(--black);
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.btn-green-to-black:hover {
+    background-color: var(--black);
+    transition: 0.3s ease-in-out;
+}
+
+.secure-img-white {
+    display: none;
+}
+
+.btn-green-to-black:hover .secure-img-white {
+    display: block;
+}
+
+.btn-green-to-black:hover .secure-img-black {
+    display: none;
+}
+
+.secure-fields {
+    grid-area: 1/10/1/13;
+
+
+}
+
+.secure-list {
+    list-style-type: none;
+    margin-bottom: 26px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--black);
+    border-bottom: 1px solid #000000;
+    padding-bottom: 12px;
+    max-width: fit-content;
+    cursor: pointer;
+}
+
+
+.secure-list:hover {
+    font-weight: 500;
+}
+
+.carouselPadding {
+    width: 100%;
+    padding-left: 30px;
+    /* max-width: 1550px; */
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+@media (min-width: 1350px) and (max-width: 1550px) {
+    .section {
+        max-width: 100%;
+        /* Take up the full width within the range */
+    }
+}
+
+/* For screens larger than 1550px */
+@media (min-width: 1550px) {
+    .section {
+        max-width: 1550px;
+        /* Ensure max-width doesn't exceed 1550px */
+    }
+}
+
+@media only screen and (max-width:1100px) {
+
+    .home-blog-section {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width:1140px) {
+    .approach {
+        grid-area: 2/1/2/13;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .upper-btn-wrapper {
+        align-items: flex-end;
+        justify-content: right;
+    }
+
+    .patient-review-img {
+        grid-area: 2/1/2/13;
+    }
+
+    .patient-border-bottom {
+        width: 100%;
+    }
+
+    .secure-fields {
+        grid-area: 2/1/2/13;
+    }
+
+    .commitment-carousel.owl-carousel {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about-btn {
+        margin: 15px 0 15px 0;
+    }
+
+    .review {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 44px;
+        margin-top: 10px;
+    }
+
+    .review-subpara {
+        font-size: 10px;
+        line-height: 23px;
+    }
+
+    /* -- section unmatched commitment start -- */
+
+    .commitment-img {
+        width: 100%;
+    }
+
+    .commitment-img img {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        height: 100% !important;
+        object-fit: cover;
+    }
+    .commitment-content {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+    .commitment-content {
+        width: 100%;
+    }
+
+    .commitment-content-wrapper {
+        flex-direction: column;
+        max-height: initial;
+        margin: 10px 0;
+    }
+
+    /* -- section unmatched commitment end -- */
+    /* -- section patient review start -- */
+
+
+    .patient-border {
+        margin: 20px 0;
+    }
+    .patient-text {
+        color: var(--gray);
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+    .sm-patient-btns {
+        margin-top: 60px;
+
+    }
+
+    .home-btn {
+        margin-bottom: 30px;
+
+    }
+
+    .review-order {
+        order: 1;
+    }
+
+    .home-review {
+        border-top: none;
+    }
+
+    .secure-para-margins {
+        margin-bottom: 33px;
+    }
+}
