@@ -1,0 +1,201 @@
+/* -- section trusted-partner start -- */
+.about-para{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top:17px ;
+    color: var(--black);
+}
+.about-top-sub-para{
+    padding: 0 250px;
+}
+.about-journey{
+   grid-area: 1/8/2/13;
+}
+.review-border{
+    margin-top:15px;
+    border-right: 1px solid #BEBAB1;
+}
+.review{
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 85px;
+    color: var(--black);
+    margin-top:35px;
+    
+}
+.about-subpara{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--gray);
+}
+/* -- section trusted-partner end -- */
+
+/* -- section journey start -- */
+
+.about-card-wrapper{
+    border: 1px solid #BEBAB1;
+    border-radius: 10px;
+    padding: 65px 37px;
+    margin-bottom: 32px;
+}
+.about-card-wrapper:hover{
+    background-color: var(--black);
+    border-color: var(--black);
+    transition: 0.3s ease-in-out;
+}
+.about-card-wrapper:hover .about-card-heading{
+    color: var(--wheat);
+    transition: 0.3s ease-in-out;
+
+}
+.about-card-wrapper:hover .about-card-para{
+    color: var(--wheat);
+    transition: 0.3s ease-in-out;
+
+}
+.about-card-heading{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 18px;
+    color: var(--black);
+}
+.about-card-para{
+    font-weight:400;
+    font-size: 17px;
+    line-height: 26px;
+    color: var(--gray);
+}
+.health-cards{
+    margin-top: 60px;
+}
+/* -- section journey end -- */
+
+/* -- section achivements start -- */
+.achievement{
+    background-color: var(--black);
+}
+.achievement-card-wrapper{
+    border: 1px solid #313131;
+    padding: 50px 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.achievement-icon{
+    height: 45px;
+    width: 50px;
+    margin-bottom: 90px;
+}
+.achievement-color{
+    color: var(--wheat);
+}
+/* -- section achivements end -- */
+
+/* -- section experts doctors start -- */
+.about-expert-wrapper{
+    position: relative;
+    height: 100%;
+}
+.expert-doctors-heading{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47px;
+    color: var(--black);
+}
+.back-over-look{
+    padding-top: 63px;
+    padding-bottom: 125px;
+    height: 100%; 
+}
+.front-over-look{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    height: 100%; 
+}
+.about-expert-wrapper:hover .front-over-look{
+  opacity: 1;
+}
+
+.expert-doctors-para{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 25px;
+    
+    background-color: white;
+    color: var(--black);
+    height: 50%;
+
+}
+.expert-doctors-img{
+    height: 50%;
+}
+.border-black{
+    border: 1px solid var(--black);
+    position: absolute;
+    top: 240px;
+
+}
+.border-black:hover{
+    border: 1px solid var(--black);
+
+}
+/* -- section experts doctors end -- */
+
+@media only screen and (max-width:1024px) {
+.review-border{
+        border-right: none;
+    
+}
+.journey-image-after{
+    display: block;
+}
+
+.review-wrapper{
+    border-bottom: 2px solid #BEBAB1;
+    padding-bottom:30px;
+    max-width: fit-content;
+
+}
+.about-subpara{
+    text-align: left;
+}
+.review{
+    text-align: left;
+}
+.about-top-sub-para{
+    padding: 0 30px;
+}
+.achievement{
+    padding: 10px 0;
+}
+.about-journey{
+    grid-area: 2/1/2/13;
+ }
+ 
+}
+@media only screen and (max-width:768px) {
+    .about-journey{
+        grid-area: 2/1/2/13;
+     }
+     
+    .about-subpara{
+        border-bottom: 2px solid #BEBAB1;
+        padding-bottom: 30px;
+    }
+    .review-wrapper{
+        border-bottom: none;
+        padding-bottom:0px;
+    }
+    .expert-doctors-para{
+        display: none;
+    }
+    .front-over-look{
+        position: relative;
+        opacity: 1;
+    }
+    .about-expert-wrapper{
+        height: auto;
+    }
+}

@@ -1,0 +1,62 @@
+
+/* ---section doctor dropdown start  --- */
+.dropdown-heading-wrapper{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--gray);
+    margin-bottom: 14px;
+}
+.dropdown-heading{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black);
+}
+.dropdown-icon{
+    height: 7px;
+    width: 14px;
+    transition: transform 0.3s ease;
+}
+.dropdown-list-wrapper{
+    display: none;
+}
+
+.dropdown-active .dropdown-list-wrapper{
+    display: block;
+}
+.dropdown-active .dropdown-icon{
+    transform: rotate(180deg);
+}
+.type-dropdown-active .dropdown-list-wrapper{
+    display: block;
+
+}
+.type-dropdown-active .dropdown-icon{
+    transform: rotate(180deg);
+}
+.location-dropdown-active .dropdown-list-wrapper{
+    display: block;
+
+}
+.location-dropdown-active .dropdown-icon{
+    transform: rotate(180deg);
+}
+.dropdown-link{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--gray);
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--gray);
+    transition: 0.2s ease-in-out;
+}
+.dropdown-link:hover{
+    font-weight: 500;
+    color: var(--black);
+    border-color: var(--black);
+}
+.dropdown-list{
+    margin-bottom: 30px;
+}
+/* ---section doctor dropdown end  --- */

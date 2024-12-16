@@ -1,0 +1,107 @@
+/* -- section pricing cards start  -- */
+.card-wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 75px 51px;
+    position: relative;
+}
+
+.card-wrapper:hover {
+    background-color: var(--green);
+    transition: 0.3 ease-in-out;
+}
+
+.card-wrapper:hover .price-btn {
+    background-color: var(--black);
+    color: #ffffff;
+    transition: 0.3 ease-in-out;
+}
+
+.card-price-heading {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 85px;
+    color: var(--black);
+    margin-bottom: 22px;
+}
+
+.dollar {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: var(--gray);
+    margin-left: -25px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.card-price-para {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.month {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.price-bellow-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 33px;
+    color: var(--gray);
+
+}
+
+.price-btn {
+    background-color: var(--wheat);
+    color: var(--black);
+    border: 1px solid black;
+    padding: 25px 82px;
+    display: block;
+    text-align: center;
+}
+
+.price-btn:hover {
+    background-color: var(--black);
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+
+}
+
+.price-list-wrapper {
+    margin-top: 60px;
+}
+
+.price-list {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: var(--black);
+}
+
+.price-list.check::before {
+    content: '';
+    background-image: url(../images/price-check-icon-svg.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 30px;
+}
+
+.price-list.uncheck::before {
+    content: '';
+    background-image: url(../images/price-uncheck-icon.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 30px;
+}
+
+/* -- section pricing cards end  -- */

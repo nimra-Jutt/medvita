@@ -1,0 +1,22 @@
+/* --section health deserve start--*/
+
+.doc-details-heading{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 56px;
+    margin-bottom: 35px;
+}
+.doc-details-para{
+    font-weight:400;
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--gray);
+    margin-bottom: 63px;
+}
+.doc-details-sub-heading{
+    font-weight:500;
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 19px;
+}
+ /* --section health deserve end-- */

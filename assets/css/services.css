@@ -1,0 +1,109 @@
+/* .card{
+    border: 1px solid #D0CCC4;
+    border-radius: 10px;
+    padding: 64px 73px 64px 37px;
+}
+.card:hover{
+    background-color: var(--green);
+    transition: 0.3s ease-in-out;
+
+}
+.card-heading{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--black);
+    padding-bottom: 36px;
+}
+.card-para{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+    color: var(--gray);
+    padding-bottom: 128px;
+}
+.card-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
+    border-bottom: 1px solid black;
+} */
+
+
+
+
+/* .services-para{
+    font-weight: 400;
+    color: var(--gray);
+    line-height: 27px;
+ } */
+.tabs-wrapper {
+    margin: 21px 0;
+}
+
+.therapy-para {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+    color: var(--gray);
+}
+
+.therapy-content {
+    padding: 20px 17px;
+    border-bottom: 1px solid #BEBAB1;
+}
+
+.therapy-content:hover {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-bottom: 1px solid #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.tabs-wrapper.faqs-active .therapy-content{
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.therapy-img-grid {
+    grid-area: 1/8/2/13;
+    display: flex;
+    align-items: last baseline;
+    justify-content: flex-end;
+    /* display: none; */
+}
+
+.image-therapy-style{
+    height: 70%;
+}
+
+
+.service-btn {
+    margin-top: 55px;
+    background-color: var(--black);
+    color: #ffffff;
+}
+
+@media only screen and (max-width:1140px) {
+
+    .therapy-img-grid {
+        grid-area: 2/1/2/13;
+
+    }
+    .image-therapy-style{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .therapy-img-grid {
+
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+
+}
