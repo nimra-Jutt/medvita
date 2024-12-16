@@ -871,6 +871,10 @@ body {
 /* ---------- Commonn Classes Start ---------- */
 
 /* ---------- Page Header Area Start---------- */
+.main-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .top-heading-wrapper{
     margin-bottom: 20px;
 }

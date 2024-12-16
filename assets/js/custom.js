@@ -7,7 +7,7 @@ menuBtn.addEventListener('click', function menuResponsive() {
     menuBtn.classList.toggle('menu-active');
     menu.classList.toggle('active');
 
-    menuResponsive();
+    // menuResponsive();
 });
 
 
