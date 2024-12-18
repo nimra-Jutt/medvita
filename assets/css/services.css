@@ -38,7 +38,8 @@
     line-height: 27px;
  } */
 .tabs-wrapper {
-    margin: 21px 0;
+    /* margin: 21px 0; */
+    margin-top: 5px;
 }
 
 .therapy-para {
@@ -49,7 +50,7 @@
 }
 
 .therapy-content {
-    padding: 20px 17px;
+    padding: 25px 17px;
     border-bottom: 1px solid #BEBAB1;
 }
 
@@ -58,6 +59,8 @@
     border-radius: 12px;
     border-bottom: 1px solid #ffffff;
     transition: 0.3s ease-in-out;
+    border-bottom: none;
+
 }
 
 .tabs-wrapper.faqs-active .therapy-content{
@@ -72,13 +75,11 @@
     display: flex;
     align-items: last baseline;
     justify-content: flex-end;
-    /* display: none; */
 }
 
 .image-therapy-style{
     height: 70%;
 }
-
 
 .service-btn {
     margin-top: 55px;

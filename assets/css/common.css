@@ -209,7 +209,7 @@ body {
 
 .top-heading {
     font-weight: 500;
-    font-size: 60px;
+    font-size: 55px;
     line-height: 64px;
     color: #000000;
 }
@@ -438,12 +438,18 @@ body {
 /* ----- grid end -----  */
 
 /* ---- navbar start ---- */
-
+.sticky-header{
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    background-color: var(--wheat);
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+    
 }
 
 .menu-list {
@@ -488,6 +494,7 @@ body {
 .card:hover {
     background-color: var(--green);
     transition: 0.3s ease-in-out;
+    border: 1px solid var(--green);
 
 }
 
@@ -757,6 +764,9 @@ body {
     flex-wrap: wrap;
     margin-bottom: 65px;
 }
+.btn:hover.footer-btn{
+    color: var(--black);
+}
 
 .footer-top {
     width: 100%;
@@ -920,6 +930,7 @@ body {
     .link-navbar {
         padding: 12px 30px;
         display: block;
+       
     }
 
     .nav-btn {
