@@ -573,7 +573,7 @@ body {
 .doctor-icon-flex {
     justify-content: space-between;
     align-items: center;
-    margin: 14px 0 28px 0;
+    margin: 14px 8px 28px 0;
 
 }
 
@@ -684,6 +684,7 @@ body {
 
 .img-caption {
     font-size: 25px;
+    font-weight: 500;
     line-height: 35px;
     margin-bottom: 22px;
     font-weight: 500;
@@ -1003,7 +1004,7 @@ body {
 
     .main-menu.active {
         transform: translate(0px, 0px);
-        height: 100vh;
+       
     }
 
     .main-menu {
@@ -1017,6 +1018,7 @@ body {
         transform: translate(-100%, 0);
         transition: 0.5s ease-in;
         overflow-y: auto;
+        height: 100vh;
     }
 
     .footer-heading {
