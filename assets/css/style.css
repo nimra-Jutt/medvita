@@ -360,6 +360,23 @@
 }
 
 @media only screen and (max-width:1024px) {
+    .approach-content-wrapper {
+        padding: 20px 40px;
+    }
+    .about-card-heading {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        color: var(--black);
+    }
+    
+    .about-card-para {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        color: var(--gray);
+    }
     .upper-btn-wrapper {
         align-items: flex-end;
         justify-content: right;
@@ -415,6 +432,7 @@
         border-top-right-radius: 0;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
+        padding: 30px 25px;
 
     }
     .commitment-content {
@@ -448,7 +466,7 @@
     }
 
     .home-btn {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
 
     }
 
