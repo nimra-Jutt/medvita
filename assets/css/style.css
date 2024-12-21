@@ -65,7 +65,7 @@
 .about-card-para {
     font-weight: 400;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 26px;
     color: var(--gray);
 }
 
@@ -187,7 +187,7 @@
 }
 
 .patient-text {
-    color: var(--gray);
+    color: #999590;
     font-size: 25px;
     font-weight: 400;
     line-height: 33px;
@@ -208,13 +208,16 @@
     font-weight: 400;
     color: var(--white);
     display: inline-block;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 
+}
+.name-location span{
+    margin: 0 10px;
 }
 
 .border-between {
     border-right: 1px solid #414141;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 
 .patient-border-bottom {
@@ -240,6 +243,7 @@
     border-radius: 50%;
     border: 1px solid var(--white);
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .arrow-white {
