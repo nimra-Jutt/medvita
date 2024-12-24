@@ -16,7 +16,7 @@
 }
 
 .about-btn {
-    margin: 30px 0 100px 0;
+    margin: 30px 0 50px 0;
 }
 
 .home-review {
@@ -320,8 +320,12 @@
     cursor: pointer;
 }
 
+h1, h2 {
+    font-size: 20px;
+}
 
-.secure-list:hover {
+
+.secure-list:hover, .secure-wrapper.secure-active .secure-list{
     font-weight: 500;
 }
 

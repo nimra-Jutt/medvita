@@ -31,19 +31,19 @@
     font-size: 25px;
     line-height: 32px;
     color: var(--gray);
-    margin-left: -25px;
-    margin-top: 10px;
-    position: absolute;
+    margin-right: 7px;
 }
 
 .card-price-para {
-    font-weight: 500;
-    font-size: 60px;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 85px;
 }
 
 .month {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 18px;
+    line-height: 85px;
 }
 
 .price-bellow-para {
@@ -62,17 +62,13 @@
     padding: 25px 82px;
     display: block;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .price-btn:hover {
     background-color: var(--black);
     color: #ffffff;
     transition: 0.3s ease-in-out;
-
-}
-
-.price-list-wrapper {
-    margin-top: 60px;
 }
 
 .price-list {
@@ -106,3 +102,50 @@
 }
 
 /* -- section pricing cards end  -- */
+
+
+
+@media only screen and (max-width:1024px) {
+
+
+.card-wrapper {
+    padding: 47px 44px;
+}
+.card-price-heading {
+    font-size: 31px;
+    line-height: 77px;
+    margin-bottom:0;
+}
+.dollar {
+    font-size: 22px;
+    line-height: 28px;
+    margin-right: 5px;
+}
+.card-price-para {
+    font-size: 61px;
+    line-height: 77px;
+}
+
+.month {
+    font-size: 16px;
+    line-height: 77px;
+}
+
+.price-bellow-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 29px;
+
+}
+.price-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    padding: 21px 82px;
+}
+.price-list {
+    font-size: 16px;
+    line-height: 24px;
+}
+}

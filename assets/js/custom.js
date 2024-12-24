@@ -9,6 +9,11 @@ menuBtn.addEventListener('click', function menuResponsive() {
 
     // menuResponsive();
 });
+document.getElementById('footerYear');
+let newDate = new Date();
+let fullYear = newDate.getFullYear();
+console.log(fullYear);
+document.getElementById('footerYear').innerText = fullYear;
 
 
 // let imgsDropdown = document.querySelectorAll('.tabs-show');

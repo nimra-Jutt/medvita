@@ -27,6 +27,7 @@
 .about-subpara{
     font-weight: 400;
     font-size: 18px;
+    line-height: 23px;
     color: var(--gray);
 }
 /* -- section trusted-partner end -- */
@@ -146,8 +147,26 @@
 
 @media only screen and (max-width:1024px) {
 .review-border{
+    margin-top: 0;
         border-right: none;
     
+}
+.review{
+    font-size: 58px;
+    line-height: 76px;
+    margin-top:30px;
+    text-align: left;
+}
+.about-card-wrapper{
+    padding: 42px 28px;
+}
+.about-card-heading{
+    font-size: 20px;
+    line-height: 22px;
+}
+.about-card-para{
+    font-size: 14px;
+    line-height: 23px;
 }
 .journey-image-after{
     display: block;
@@ -161,15 +180,26 @@
 }
 .about-subpara{
     text-align: left;
+    font-size: 16px;
+    line-height: 20px;
 }
-.review{
-    text-align: left;
-}
+
 .about-top-sub-para{
     padding: 0 30px;
 }
 .achievement{
     padding: 10px 0;
+}
+.achievement-card-wrapper{
+    border: 1px solid #313131;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.achievement-icon{
+    height: 45px;
+    width: 50px;
+    margin-bottom: 60px;
 }
 .about-journey{
     grid-area: 2/1/2/13;
